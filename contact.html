@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Mikiyas Lemma Kahsay</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>I welcome questions, ideas, feedback, and opportunities to connect.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About Me</a> | 
+        <a href="skills.html">Skills &amp; Education</a> | 
+        <a href="projects.html">Projects &amp; Achievements</a> | 
+        <a href="media.html">My Media &amp; Interests</a> | 
+        <a href="contact.html">Contact Me</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:mikiyaslemma4@gmail.com">mikiyaslemma4@gmail.com</a></p>
+            <p>Website: <a href="index.html">My Personal Website</a></p>
+        </section>
+
+        <section>
+            <h2>Send Me a Message</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX"><br><br>
+
+                    <label for="website">Your Website:</label><br>
+                    <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>--Select a subject--</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="collaboration">Project Collaboration</option>
+                        <option value="feedback">Website Feedback</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <p>How did you find my website?</p>
+                    <input type="radio" id="source-search" name="referral_source" value="search">
+                    <label for="source-search">Search Engine</label><br>
+
+                    <input type="radio" id="source-social" name="referral_source" value="social">
+                    <label for="source-social">Social Media</label><br>
+
+                    <input type="radio" id="source-friend" name="referral_source" value="friend">
+                    <label for="source-friend">Friend or Colleague</label><br><br>
+
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required></textarea><br><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Optional Information</legend>
+
+                    <label for="contact-date">Preferred Contact Date:</label><br>
+                    <input type="date" id="contact-date" name="contact_date"><br><br>
+
+                    <label for="fav-color">Choose a Favourite Color:</label><br>
+                    <input type="color" id="fav-color" name="fav_color" value="#0055ff"><br><br>
+
+                    <label for="rating">Rate My Website (1-10):</label><br>
+                    <input type="range" id="rating" name="rating" min="1" max="10" value="8"><br><br>
+
+                    <input type="checkbox" id="reply-needed" name="reply_needed" value="yes" checked>
+                    <label for="reply-needed">I would like a reply to my message.</label><br><br>
+                </fieldset>
+
+                <br>
+
+                <input type="submit" value="Submit Message">
+                <input type="reset" value="Clear Form">
+            </form>
+        </section>
+
+        <section>
+            <h2>Other Ways to Connect</h2>
+            <p>You can also connect with me through professional networks or other platforms:</p>
+            <ul>
+                <li><a href="https://linkedin.com/mikiyas-lemma" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="https://github.com/mikiyas-l" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mikiyas Lemma Kahsay. Personal website.</p>
+        <p>Thank you for visiting my website.</p>
+        <p><a href="index.html">Return to Home</a></p>
+    </footer>
+</body>
+</html>
